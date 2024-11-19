@@ -261,7 +261,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    background: radial-gradient(134.34% 134.34% at 50% 0%, #1F3757 0%, #131537 100%);
+    background: radial-gradient(134.34% 134.34% at 50% 10%, #0f1a29 10%, #0d0e27 100%);
     opacity: 67%;
 }
 
@@ -401,5 +401,28 @@ header {
 @media screen and (max-width:358px) {
     .play_res {
         gap: 15px;
+    }
+}
+
+@media screen and (max-width:322px) {
+    .play_res {
+        column-gap: 30px;
+    }
+    .btnResult {
+        img {
+            max-width: 80px;
+        }
+        p {
+            font-size: 13px;
+        }
+    }
+    .resultText2 {
+        h3 {
+            font-size: 30px;
+        }
+        button {
+            font-size: 14px;
+            padding: 10px 20px;
+        }
     }
 }
